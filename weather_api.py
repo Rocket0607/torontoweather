@@ -8,7 +8,7 @@ def home():
     return "Toronto Weather API. Go to /weather to get the weather :)"
 
 
-@app.route("/weather", methods=["GET"])
+@app.route("/weather")
 def weather():
     from bs4 import BeautifulSoup
     import requests
