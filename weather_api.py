@@ -12,7 +12,6 @@ def home():
 def weather():
     from bs4 import BeautifulSoup
     import requests
-    import argparse
 
     url = "https://weather.com/en-CA/weather/today/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02"
     html = requests.get(url).text
