@@ -4,7 +4,7 @@ itsdangerous==1.1.0
 Jinja2==2.10.1
 MarkupSafe==1.1.1
 requests==2.22.0
-urllib3==1.25.5
+urllib3==1.25.8
 Werkzeug==0.16.0
 beautifulsoup4==4.9.1
 bs4==0.0.1
